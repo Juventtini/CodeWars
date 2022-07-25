@@ -8,6 +8,6 @@ Examples:
 vowelOne( "abceios" ) // "1001110"
 
 vowelOne( "aeiou, abc" ) // "1111100100"*/
-function vowelOne(s){
-  return s.replace(/./g, a=> /[aeiou]/i.test(a ? '1' : '0')
+function vowelOne(s) {
+    return s.replace(/./g, a => /[aeiou]/i.test(a ? '1' : '0');
 }
