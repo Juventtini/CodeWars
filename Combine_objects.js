@@ -11,9 +11,7 @@ The combine function should be a good citizen, so should not mutate the input ob
 const objA = { a: 10, b: 20, c: 30 }
 const objB = { a: 3, c: 6, d: 3 }
 combine(objA, objB) 
-function combine(el) {
-    let arrayArguments = [...arguments]
-    console.log(arrayArguments)
+function combine(el) {    
     let newObj = {}
     for(let i = 0; i < arguments.length; i++){
     for(let key in arguments[i]){
