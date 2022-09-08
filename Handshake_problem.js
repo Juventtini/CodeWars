@@ -8,7 +8,8 @@ perform these handshakes (a pair of farmers handshake only once). */
 function getParticipants(handshakes){
   let farmers = 0
   while(handshakes > farmers * (farmers - 1) / 2){
-    farmers++
+      farmers++
+      console.log(farmers)
   }
   return farmers
 }
