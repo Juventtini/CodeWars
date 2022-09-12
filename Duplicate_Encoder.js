@@ -19,4 +19,4 @@ function duplicateEncode(word){
         }).
         join('')
 }
-console.log(duplicateEncode('asdasdh'))
+console.log(duplicateEncode('asdasdhllllsdasdasdadldfgsdghppwepqpqbnzxcv'))
